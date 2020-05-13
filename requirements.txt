@@ -1,4 +1,9 @@
-numpy==1.14.1
+# 1.14.1 brings the following error:
+# ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+# Workaround installing 1.16.0 instead.
+#numpy==1.14.1
+numpy==1.16.0
+
 scipy==1.0.0
 scikit-learn==0.19.1
 matplotlib==2.2.0
